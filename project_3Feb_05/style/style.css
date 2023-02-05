@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/project_3Feb_05/assest/bg.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+}
+
+
+header{
+    background-color: black;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+
+}
+.nav_icon{
+    display: none;
+    align-items: center;
+   
+}
+.nav_icon i{
+    color: white;
+}
+.nav_logo{
+    border-right: 2px solid whitesmoke;
+    padding-right: 50px;
+}
+.nav_logo img{
+    width: 100px;
+    cursor: pointer;
+
+}
+.nav_items a{
+color: white;
+font-size: 16px;
+font-weight: 500;
+text-decoration: none;
+margin-right: 20px;
+}
+.nav_items a:hover{
+    color: rgb(198, 12, 255);
+
+   
+    }
+.nav_btn button{
+    background-color: rgb(198, 12, 255);
+  
+    width: 100px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: white;
+    
+}
+.nav_btn button:hover{
+    background-color: white;
+border: 2px solid rgb(198, 12, 255);
+color: rgb(198, 12, 255);
+    
+}
+main{
+    margin-top: 100px;
+}
+section{
+
+text-align: center;
+width: 100%;
+
+ 
+}
+section h1{
+    color: white;
+    font-size: 48px;
+    padding: 10px;
+    
+}
+section p{
+    font-size: 18px;
+    color: white;
+    padding-bottom: 50px;
+
+}
+section button{
+width: 200px;
+    background-color: rgb(198, 12, 255);
+  
+   color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    
+}
+section button:hover{
+    background-color: white;
+    border: 2px solid rgb(198, 12, 255);
+    color: rgb(198, 12, 255);
+        
+}
+@media(max-width:800px){
+    nav{
+       
+        padding: 10px 20px;
+    
+    }
+    .nav_left{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    
+    }
+    .nav_logo{
+        border-right: 2px solid whitesmoke;
+        padding-right: 20px;
+    }
+    .nav_logo img{
+        width: 80px;
+        cursor: pointer;
+    
+    }
+    .nav_items a{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 10px;
+    }
+    .nav_btn button{
+      
+      
+        width: 90px;
+        padding: 7px;
+      
+        
+    }
+}
+@media(max-width:620px){
+    .nav_items {
+  display: none;
+        }   
+        .nav_icon{
+            display: flex;
+        }
+}
