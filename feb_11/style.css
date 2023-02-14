@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(37, 24, 73);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+
+}
+.menu{
+display: none;
+}
+.menu img{
+    width: 20px;
+    color: rgb(12, 47, 245);
+}
+.nav_image{
+    display: flex;
+    align-items: center;
+    gap: 20pxx;
+}
+.nav_image p{
+    padding: 0px 10px;
+}
+.nav_image p a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.nav_image p a:hover{
+    color: royalblue;
+    text-decoration: underline;
+
+}
+.sec_01{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+   
+}
+.section_text p img{
+    width: 20px;
+}
+.section_image img{
+    width: 150px;
+}
+.section_02 img{
+    width: 150px;
+}
+.section_02_01{
+  text-align: center;
+  margin: 10px;
+}
+.section_02_01 p a {
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+text-decoration-color: rgb(12, 47, 245);
+text-decoration-style: wavy;
+}
+.sec_02{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sec_02 img{
+    margin: 5px 20px;
+}
+.social img{
+    width: 20px;
+    margin: 10px 20px;
+ 
+}
+.social{
+  
+}
+footer{
+    text-align: center;
+}
+
+footer p a{
+    color: white;
+font-size: 18px;
+text-decoration: underline;
+text-decoration-color: rgb(12, 47, 245);
+text-decoration-style: wavy;
+}
+@media(max-width:768px){
+    main{
+        text-align: center;
+    }
+    .menu{
+        display: block;
+        align-items: center;
+
+
+    }
+    .menu p a{
+        align-items: end;
+    }
+    nav{
+
+        align-items: center;
+        justify-content: start;
+        padding: 10px;
+    
+    }
+    .nav_image{
+        display: none;
+    }
+    .sec_02{
+        display: block;
+        width: 100%;
+    }
+    .sec_01{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .section_image img{
+        width: 200px;
+        margin-top: 20px;
+    }
+    .section_02 img{
+        width: 300px;
+    }
+}
